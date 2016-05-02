@@ -1,0 +1,29 @@
+{
+  "name": "nicar",
+  "version": "1.0.0",
+  "description": "do whois into .com.ar domains.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lortmorris/nicar.git"
+  },
+  "keywords": [
+    "nic.ar",
+    "whois",
+    "domains"
+  ],
+  "author": "Cesar Casas <cesarcasas@bsdsolutions.com.ar> (https://ar.linkedin.com/in/cesarcasas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lortmorris/nicar/issues"
+  },
+  "homepage": "https://github.com/lortmorris/nicar#readme",
+  "dependencies": {
+    "argsparser": "0.0.7",
+    "browserwithphantom": "^2.0.53",
+    "debug": "^2.2.0"
+  }
+}
